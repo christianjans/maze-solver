@@ -19,6 +19,16 @@ See if an AI using Q Learning can solve your maze.
    
 3. Build a maze and watch the AI try and solve it!
 
+## images
+
+![ Main Menu](/qlearning-project/resources/menu.png?raw=true "The Main Menu")
+
+![ Initial 'Maze'](/qlearning-project/resources/initial_maze.png?raw=true "The Initial 'Maze'")
+
+![ Middle of Training](/qlearning-project/resources/mid_train.png?raw=true "Middle of Training")
+
+![ End of Training](/qlearning-project/resources/end_train.png?raw=true "End of Training")
+
 ## tips & tricks
 1. While training you will see a "##.#% Random" label. The percentage should continually decrease, however if you would like your AI to explore the maze a little more, press SPACE to pause the decrease of this value and let the AI take more random moves. (the percentage is 100 times the epsilon value used for the epsilon-greedy strategy)
 2. As of now, there isn't any way to resize the maze from in the game. However, if you would like to, open main.py in an editor and search for the first occurence of **BOARD_WIDTH** and **BOARD_HEIGHT**. Change their assignment to your desired maze (board) size.
